@@ -13,7 +13,7 @@ class Formatter {
     for (let n = 0; n < words.length; n++){
       if (n == 0) {
         result.push(this.capitalize(words[n]))
-       } else {
+       } else }
        if (nonCap.includes(words[n])){
          result.push(words[n])
        } else {
@@ -23,5 +23,4 @@ class Formatter {
        }
        return result.join(" ")
 
-      }
-    }
+  
